@@ -1,0 +1,31 @@
+[user]
+    email = chopfitzroy@gmail.com
+    name = Otis Wright
+[push]
+    default = upstream
+[core]
+    # @TODO make this the default editor
+    editor = nvim 
+    packedGitLimit = 512m 
+    packedGitWindowSize = 512m 
+    filemode = false
+[pack] 
+    deltaCacheSize = 2047m 
+    packSizeLimit = 2047m 
+    windowMemory = 2047m
+[help]
+    autocorrect = 10
+[branch]
+    autosetuprebase = always
+[merge]
+    tool = meld
+[mergetool "meld"]
+    cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
+[mergetool]
+	keepBackup = false
+[diff]
+    tool = meld
+[difftool]
+    prompt = false
+[difftool "meld"]
+    cmd = meld "$LOCAL" "$REMOTE"
