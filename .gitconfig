@@ -1,18 +1,20 @@
 [user]
-    email = chopfitzroy@gmail.com
     name = Otis Wright
+    email = chopfitzroy@gmail.com
 [help]
     autocorrect = 10
+[pull]
+	rebase = false
 [push]
     default = upstream
-[core]
-	fileMode = false
-    packedGitLimit = 512m 
-    packedGitWindowSize = 512m 
-	editor = /usr/local/bin/code -w
 [pack] 
     windowMemory = 2047m
     packSizeLimit = 2047m 
-    deltaCacheSize = 2047m 
+    deltaCacheSize = 2047m
+[core]
+    fileMode = false
+    packedGitLimit = 512m 
+    packedGitWindowSize = 512m 
+    editor = /usr/local/bin/code -w
 [branch]
     autosetuprebase = never
