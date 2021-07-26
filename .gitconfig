@@ -4,7 +4,7 @@
 [help]
     autocorrect = 10
 [pull]
-	rebase = false
+    rebase = false
 [push]
     default = upstream
 [pack] 
